@@ -1,4 +1,4 @@
-# Miuul Data Sciencitst Bootcamp
+# Miuul - Data Scienctist Bootcamp
 
 ## Python Programming for Data Science
 
