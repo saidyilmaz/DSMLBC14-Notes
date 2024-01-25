@@ -8,7 +8,7 @@ This repository serves as a centralized hub for my notes, covering a wide range 
 
 ## Week 1 & 2 - Python Programming for Data Science
 
-Basic fundamentals of Python, data structures, functions, conditions, loops and comprehentions
+Basic fundamentals of Python: data structures, functions, conditions, loops and comprehentions
 
 Introduction to Numpy and Pandas
 
