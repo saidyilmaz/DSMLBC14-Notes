@@ -1,5 +1,6 @@
 # Miuul - Data Science and Machine Learning Bootcamp
 Welcome to my Data Science Bootcamp Notes repository! 🚀 
+
 In this collection, I've documented my journey and the concepts I've learned throughout the data science training camp.
 
 # About This Repository
@@ -7,6 +8,8 @@ This repository serves as a centralized hub for my notes, covering a wide range 
 
 ## Week 1 & 2 - Python Programming for Data Science
 
-Basic fundamentals of Python, data structures, functions, conditions, loops and comprehentions
+Basic fundamentals of Python: data structures, functions, conditions, loops and comprehentions
+
 Introduction to Numpy and Pandas
+
 Data visualization
