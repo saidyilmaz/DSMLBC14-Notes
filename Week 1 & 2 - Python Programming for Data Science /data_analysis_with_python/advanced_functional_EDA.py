@@ -32,9 +32,7 @@ df.isnull().values.any()  # veri setinde eksiklik olup olmadığını görmek i�
 # .any() bu listede true değeri (yani boş veri) olup olmadığına bakar
 # Böylece veri setinde eksiklik olup olmadığını öğrenmiş oluruz
 df.isnull().sum()  # df.isnull() veri setindeki true/false (yani 1/0) değerlerini toplayarak
-
-
-# veri setinde hangi değişkende kaç tane boşluk olduğunu söyler
+                    # veri setinde hangi değişkende kaç tane boşluk olduğunu söyler
 
 ## Şimdi veri setini girdiğimizde bize veri setiyle ilgili genel bilgileri verecek bir fonksiyon tanımlayacağız
 
@@ -107,9 +105,7 @@ cat_cols = [col for col in cat_cols if col not in cat_but_car]
 # cat_cols listesine sadece kardinalitesi yüksek olmayanları bıraktık
 
 df[cat_cols].nunique()  # seçtiğimiz değişkenlerin non-unique değerler sayısına
-
-
-# bakarak metodumuzun doğrukluğunu kontrol ediyoruz.
+                        # bakarak metodumuzun doğrukluğunu kontrol ediyoruz.
 
 
 ## Şimdi bu yaptığımız analizlerin hepsini yaptıracağımız bir fonksiyon yazacağız:
@@ -330,9 +326,12 @@ for col in cat_cols:
     cat_summary(df, col, plot=True)
 
 
+
 ###########################################################
 # 4. Hedef Değişken Analizi - Analysis of Target Variable #
 ###########################################################
+
+
 
 #burada "survived" değişkenini diğer değişkenlere göre değerlendireceğiz
 def grab_col_names(dataframe, cat_th=10, car_th=20): #bu parametrelerin ne anlama geldiğini aşağıdaki docstringde görebiliriz.
@@ -436,9 +435,11 @@ for col in num_cols:
     target_summary_with_num(df, "survived", col)
 
 
+
 ##################################################
 # 5. Korelasyon Analizi - Analysis of Corelation #
 ##################################################
+
 
 
 import pandas as pd
