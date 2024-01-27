@@ -32,9 +32,7 @@ df.isnull().values.any()  # veri setinde eksiklik olup olmadığını görmek i�
 # .any() bu listede true değeri (yani boş veri) olup olmadığına bakar
 # Böylece veri setinde eksiklik olup olmadığını öğrenmiş oluruz
 df.isnull().sum()  # df.isnull() veri setindeki true/false (yani 1/0) değerlerini toplayarak
-
-
-# veri setinde hangi değişkende kaç tane boşluk olduğunu söyler
+                    # veri setinde hangi değişkende kaç tane boşluk olduğunu söyler
 
 ## Şimdi veri setini girdiğimizde bize veri setiyle ilgili genel bilgileri verecek bir fonksiyon tanımlayacağız
 
@@ -506,3 +504,32 @@ def high_correlated_cols(dataframe, plot=False, corr_th=0.90):
 drop_list = high_correlated_cols(df)  #silmek istediğimiz elemanları yukarıdaki fonksiyonu kullanarak bir listeye aldık
 high_correlated_cols(df.drop(drop_list, axis=1), plot=True)
 #orjinal veri setinden df.drop(drop_list, axis=1) komutuyla istenmeyen değişkenleri silip o şekilde grafiği çizdirdik
+
+
+
+################################
+#        ÖZET - SUMMARY        #
+################################
+
+## Keşifçi Veri Analizi basamaklarını aşağıdaki şekilde özetleyebiliriz
+
+# 1. Veri Setini Anlama
+# df.shape ile özellik (sütun) ve gözlem (satır) sayısını kontrol edebiliriz.
+
+# 2. Temel İstatistikler
+# df.describe() ile temel istatistikleri inceleyebiliriz.
+
+# 3. Eksik Veri Kontrolü
+# df.isnull().sum() ile eksik verileri kontrol edebiliriz.
+
+# 4. Değişken Türleri ve Dağılımları
+# df.dtypes ile değişken türlerini, df['sayisal_degisken'].hist() ile histogramları inceleyebiliriz.
+
+# 5. Korelasyon Analizi
+# df.corr() ile korelasyon matrisini ve seaborn.heatmap() ile ısı haritasını oluşturabiliriz.
+
+# 6. Veri Görselleştirmesi
+# seaborn ve matplotlib gibi kütüphaneleri kullanarak çeşitli grafiklerle veriyi görselleştirebiliriz.
+
+# 7. Ayırt Edici Özelliklerin Belirlenmesi
+# Veri görselleştirmesi ve korelasyon analizi sonuçlarına bakarak ayırt edici özellikleri belirleyebiliriz.
