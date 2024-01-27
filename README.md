@@ -13,3 +13,5 @@ Basic fundamentals of Python: data structures, functions, conditions, loops and 
 Introduction to Numpy and Pandas
 
 Data visualization
+
+Exploratory Data Analysis
