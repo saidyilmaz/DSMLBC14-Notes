@@ -20,6 +20,10 @@ Exploratory Data Analysis
 
 Recency-Frequency-Monetary (RFM) Analysis and Customer Segmentation
 
+Customer Lifetime Value and Customer Segmentation
+
+Customer Lifetime Value Prediction
+
 
 
 
