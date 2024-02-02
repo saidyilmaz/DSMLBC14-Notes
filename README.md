@@ -15,3 +15,15 @@ Introduction to Numpy and Pandas
 Data visualization
 
 Exploratory Data Analysis
+
+## ## Week 3 - Customer Relation Management (CRM) Analytics
+
+Recency-Frequency-Monetary (RFM) Analysis and Customer Segmentation
+
+Customer Lifetime Value and Customer Segmentation
+
+Customer Lifetime Value Prediction
+
+
+
+
