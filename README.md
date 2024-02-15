@@ -34,4 +34,16 @@ Sorting Reviews
 
 AB Testing
 
+## Week 4 - Recommendation Systems
+
+Association Rule Learning
+
+Content Based Recommandation
+
+Item Based Collaborative Filtering
+
+User Based Collaborative Filtering
+
+Model Based Matrix Factorization
+
 
