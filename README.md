@@ -16,7 +16,7 @@ Data visualization
 
 Exploratory Data Analysis
 
-## ## Week 3 - Customer Relation Management (CRM) Analytics
+## Week 3 - Customer Relation Management (CRM) Analytics
 
 Recency-Frequency-Monetary (RFM) Analysis and Customer Segmentation
 
@@ -24,6 +24,14 @@ Customer Lifetime Value and Customer Segmentation
 
 Customer Lifetime Value Prediction
 
+## Week 4 - Measurement Problems
 
+Rating Products
+
+Sorting Products
+
+Sorting Reviews
+
+AB Testing
 
 
