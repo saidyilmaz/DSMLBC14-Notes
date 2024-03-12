@@ -46,4 +46,15 @@ User Based Collaborative Filtering
 
 Model Based Matrix Factorization
 
+## Week 6 - Feature Engineering
+
+Outliers
+
+Missing Values
+
+Encoding & Scaling
+
+Feature Extraction
+
+
 
