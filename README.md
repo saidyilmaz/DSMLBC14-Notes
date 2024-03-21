@@ -74,5 +74,21 @@ K-Fold Cross Validation
 
 Model Optimization
 
+## Week 8 Machine Learning 2
+
+Classification & Regression Trees (CART)
+
+Random Forests
+
+Gradient Boosting Machines (GBM)
+
+Extreme Gradient Boosting (XGBM)
+
+LightGBM
+
+CatBoost
+
+Imbalanced Datasets
+
 
 
