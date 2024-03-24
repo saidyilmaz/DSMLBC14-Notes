@@ -56,5 +56,39 @@ Encoding & Scaling
 
 Feature Extraction
 
+## Week 7 - Machine Learning 1
+
+Simple Linear Regression
+
+Multiple Linear Regression
+
+Gradient Decent for Linear Regression
+
+Logistic Regression
+
+K-Nearest Neighborhood
+
+Model Validation Methods
+
+K-Fold Cross Validation
+
+Model Optimization
+
+## Week 8 Machine Learning 2
+
+Classification & Regression Trees (CART)
+
+Random Forests
+
+Gradient Boosting Machines (GBM)
+
+Extreme Gradient Boosting (XGBM)
+
+LightGBM
+
+CatBoost
+
+Imbalanced Datasets
+
 
 
