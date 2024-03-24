@@ -56,7 +56,7 @@ Encoding & Scaling
 
 Feature Extraction
 
-## Week 7 - Machine Learning 1
+## Week 7 - Machine Learning I
 
 Simple Linear Regression
 
@@ -74,7 +74,7 @@ K-Fold Cross Validation
 
 Model Optimization
 
-## Week 8 Machine Learning 2
+## Week 8 - Machine Learning II
 
 Classification & Regression Trees (CART)
 
@@ -90,5 +90,16 @@ CatBoost
 
 Imbalanced Datasets
 
+## Week 9 - Machine Learning III
 
+Unsupervised Learning
 
+K-Means
+
+Hierarchical Clustering
+
+Principal Component Analysis
+
+Stacking & Ensemble Learning
+
+Machine Learning Pipelines
